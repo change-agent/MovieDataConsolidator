@@ -1,0 +1,299 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE movies
+[
+<!ELEMENT actor ( #PCDATA ) >
+
+<!ELEMENT actors ( actor+ ) >
+
+<!ELEMENT box_office ( #PCDATA ) >
+
+<!ELEMENT country ( #PCDATA ) >
+
+<!ELEMENT date ( #PCDATA ) >
+
+<!ELEMENT director ( #PCDATA ) >
+
+<!ELEMENT genre ( #PCDATA ) >
+
+<!ELEMENT metascore ( #PCDATA ) >
+
+<!ELEMENT movie ( title, rating, studio, genre, actors, writer, director, date, country, reviews, metascore, box_office ) >
+
+<!ELEMENT movies ( movie+ ) >
+
+<!ELEMENT rating ( #PCDATA ) >
+
+<!ELEMENT review EMPTY >
+<!ATTLIST review publication CDATA #REQUIRED >
+<!ATTLIST review score CDATA #REQUIRED >
+
+<!ELEMENT reviews ( review+ ) >
+
+<!ELEMENT studio ( #PCDATA ) >
+
+<!ELEMENT title ( #PCDATA ) >
+
+<!ELEMENT writer ( #PCDATA ) >
+
+]>
+<movies>
+<movie>
+<title>The Lord of the Rings: The Fellowship of the Ring</title>
+<rating>PG</rating>
+<studio>New Line Cinema</studio>
+<genre>Fantasy</genre>
+<actors>
+<actor>Elijah Wood</actor>
+<actor>Ian McKellen</actor>
+<actor>Viggo Mortensen</actor>
+</actors>
+<writer>Frances Walsh</writer>
+<director>Peter Jackson</director>
+<date>2002</date>
+<country>New Zealand / USA</country>
+<reviews>
+    <review publication="Washington Post" score="100"/>
+    <review publication="Chicago Sun-Times" score="75"/>
+    <review publication="The New York Times" score="90"/>
+    <review publication="LA Weekly" score="100"/>
+    <review publication="Los Angeles Times" score="100"/>
+    <review publication="Rolling Stone" score="100"/>
+    <review publication="Wall Street Journal" score="100"/>
+    <review publication="Entertainment Weekly" score="100"/>
+    <review publication="Empire" score=""/>
+    <review publication="Variety" score="90"/>
+    <review publication="Salon.com" score="100"/>
+    <review publication="The Onion (A.V. Club)" score=""/>
+    <review publication="TV Guide" score="70"/>
+    <review publication="Slate" score="100"/>
+</reviews>
+<metascore>92</metascore>
+<box_office>$860,700,000.00</box_office>
+</movie>
+<movie>
+<title>The Lord of the Rings: The Return of the King</title>
+<rating>PG</rating>
+<studio>New Line Cinema</studio>
+<genre>Action</genre>
+<actors>
+<actor>Elijah Wood</actor>
+<actor>Sean Astin</actor>
+<actor>Ian McKellen</actor>
+</actors>
+<writer>Frances Walsh</writer>
+<director>Peter Jackson</director>
+<date>2004</date>
+<country>USA / New Zealand</country>
+<reviews>
+    <review publication="Washington Post" score="90"/>
+    <review publication="Chicago Sun-Times" score="88"/>
+    <review publication="The New York Times" score="100"/>
+    <review publication="LA Weekly" score="100"/>
+    <review publication="Los Angeles Times" score="100"/>
+    <review publication="Rolling Stone" score="88"/>
+    <review publication="Wall Street Journal" score="100"/>
+    <review publication="Entertainment Weekly" score="100"/>
+    <review publication="Empire" score="100"/>
+    <review publication="Variety" score="100"/>
+    <review publication="Salon.com" score="90"/>
+    <review publication="The Onion (A.V. Club)" score="90"/>
+    <review publication="TV Guide" score="70"/>
+    <review publication="Slate" score="100"/>
+</reviews>
+<metascore>94</metascore>
+<box_office>$1,129,219,252.00</box_office>
+</movie>
+<movie>
+<title>The Lord of the Rings: The Two Towers</title>
+<rating>PG</rating>
+<studio>New Line Cinema</studio>
+<genre>Fantasy</genre>
+<actors>
+<actor>Elijah Wood</actor>
+<actor>Ian McKellen</actor>
+<actor>Viggo Mortensen</actor>
+</actors>
+<writer>Frances Walsh</writer>
+<director>Peter Jackson</director>
+<date>2003</date>
+<country>USA / New Zealand</country>
+<reviews>
+    <review publication="Washington Post" score="100"/>
+    <review publication="Chicago Sun-Times" score="75"/>
+    <review publication="The New York Times" score="90"/>
+    <review publication="LA Weekly" score="70"/>
+    <review publication="Los Angeles Times" score="70"/>
+    <review publication="Rolling Stone" score="75"/>
+    <review publication="Wall Street Journal" score="100"/>
+    <review publication="Entertainment Weekly" score="75"/>
+    <review publication="Empire" score=""/>
+    <review publication="Variety" score="90"/>
+    <review publication="Salon.com" score="90"/>
+    <review publication="The Onion (A.V. Club)" score="100"/>
+    <review publication="TV Guide" score="60"/>
+    <review publication="Slate" score="70"/>
+</reviews>
+<metascore>88</metascore>
+<box_office>$921,600,000.00</box_office>
+</movie>
+<movie>
+<title>Harry Potter and the Chamber of Secrets</title>
+<rating>PG</rating>
+<studio>Warner Bros.</studio>
+<genre>Fantasy</genre>
+<actors>
+<actor>Daniel Radcliffe</actor>
+<actor>Emma Watson</actor>
+<actor>Rupert Grint</actor>
+</actors>
+<writer>Steven Kloves</writer>
+<director>Chris Columbus</director>
+<date>2003</date>
+<country>USA</country>
+<reviews>
+    <review publication="Washington Post" score="30"/>
+    <review publication="Chicago Sun-Times" score="100"/>
+    <review publication="The New York Times" score="60"/>
+    <review publication="LA Weekly" score="70"/>
+    <review publication="Los Angeles Times" score="60"/>
+    <review publication="Rolling Stone" score=""/>
+    <review publication="Wall Street Journal" score="80"/>
+    <review publication="Entertainment Weekly" score="83"/>
+    <review publication="Empire" score=""/>
+    <review publication="Variety" score="80"/>
+    <review publication="Salon.com" score="50"/>
+    <review publication="The Onion (A.V. Club)" score="60"/>
+    <review publication="TV Guide" score="70"/>
+    <review publication="Slate" score="40"/></reviews>
+<metascore>63</metascore>
+<box_office>$866,300,000.00</box_office>
+</movie>
+<movie>
+<title>Harry Potter and the Goblet of Fire</title>
+<rating>PG</rating>
+<studio>Warner Bros.</studio>
+<genre>Adventure</genre>
+<actors>
+<actor>Daniel Radcliffe</actor>
+<actor>Emma Watson</actor>
+<actor>Rupert Grint</actor>
+</actors>
+<writer>Steven Kloves</writer>
+<director>Mike Newell</director>
+<date>2006</date>
+<country>UK / USA</country>
+<reviews>
+    <review publication="Washington Post" score="80"/>
+    <review publication="Chicago Sun-Times" score="88"/>
+    <review publication="The New York Times" score="80"/>
+    <review publication="LA Weekly" score="60"/>
+    <review publication="Los Angeles Times" score="90"/>
+    <review publication="Rolling Stone" score="75"/>
+    <review publication="Wall Street Journal" score="90"/>
+    <review publication="Entertainment Weekly" score="67"/>
+    <review publication="Empire" score="60"/>
+    <review publication="Variety" score="90"/>
+    <review publication="Salon.com" score="90"/>
+    <review publication="The Onion (A.V. Club)" score="80"/>
+    <review publication="TV Guide" score="75"/>
+    <review publication="Slate" score="100"/></reviews>
+<metascore>81</metascore>
+<box_office>$892,194,397.00</box_office>
+</movie>
+<movie>
+<title>Harry Potter and the Order of the Phoenix</title>
+<rating>PG</rating>
+<studio>Warner Bros.</studio>
+<genre>Adventure</genre>
+<actors>
+<actor>Daniel Radcliffe</actor>
+<actor>Rupert Grint</actor>
+<actor>Emma Watson</actor>
+</actors>
+<writer>J.K. Rowling</writer>
+<director>David Yates</director>
+<date>2007</date>
+<country>UK / USA</country>
+<reviews>
+    <review publication="Washington Post" score="80"/>
+    <review publication="Chicago Sun-Times" score="63"/>
+    <review publication="The New York Times" score="70"/>
+    <review publication="LA Weekly" score=""/>
+    <review publication="Los Angeles Times" score="50"/>
+    <review publication="Rolling Stone" score="88"/>
+    <review publication="Wall Street Journal" score="60"/>
+    <review publication="Entertainment Weekly" score="83"/>
+    <review publication="Empire" score="80"/>
+    <review publication="Variety" score="70"/>
+    <review publication="Salon.com" score="70"/>
+    <review publication="The Onion (A.V. Club)" score="67"/>
+    <review publication="TV Guide" score="63"/>
+    <review publication="Slate" score="70"/></reviews>
+<metascore>71</metascore>
+<box_office>$937,000,866.00</box_office>
+</movie>
+<movie>
+<title>Harry Potter and the Prisoner of Azkaban</title>
+<rating>PG</rating>
+<studio>Warner Bros.</studio>
+<genre>Adventure</genre>
+<actors>
+<actor>Daniel Radcliffe</actor>
+<actor>Emma Watson</actor>
+<actor>Rupert Grint</actor>
+</actors>
+<writer>Steven Kloves</writer>
+<director>Alfonso Cuaron</director>
+<date>2004</date>
+<country>USA</country>
+<reviews>
+    <review publication="Washington Post" score="40"/>
+    <review publication="Chicago Sun-Times" score="88"/>
+    <review publication="The New York Times" score="80"/>
+    <review publication="LA Weekly" score="90"/>
+    <review publication="Los Angeles Times" score="80"/>
+    <review publication="Rolling Stone" score="88"/>
+    <review publication="Wall Street Journal" score="90"/>
+    <review publication="Entertainment Weekly" score="83"/>
+    <review publication="Empire" score="60"/>
+    <review publication="Variety" score="70"/>
+    <review publication="Salon.com" score="100"/>
+    <review publication="The Onion (A.V. Club)" score="70"/>
+    <review publication="TV Guide" score="60"/>
+    <review publication="Slate" score="80"/></reviews>
+<metascore>81</metascore>
+<box_office>$789,458,727.00</box_office>
+</movie>
+<movie>
+<title>Harry Potter and the Sorcerer's Stone</title>
+<rating>PG</rating>
+<studio>Warner Bros.</studio>
+<genre>Fantasy</genre>
+<actors>
+<actor>Daniel Radcliffe</actor>
+<actor>Rupert Grint</actor>
+<actor>Emma Watson</actor>
+</actors>
+<writer>J.K. Rowling</writer>
+<director>Chris Columbus</director>
+<date>2002</date>
+<country>UK / USA</country>
+<reviews>
+    <review publication="Washington Post" score="50"/>
+    <review publication="Chicago Sun-Times" score="100"/>
+    <review publication="The New York Times" score="40"/>
+    <review publication="LA Weekly" score="40"/>
+    <review publication="Los Angeles Times" score="80"/>
+    <review publication="Rolling Stone" score="70"/>
+    <review publication="Wall Street Journal" score="60"/>
+    <review publication="Entertainment Weekly" score="75"/>
+    <review publication="Empire" score=""/>
+    <review publication="Variety" score="90"/>
+    <review publication="Salon.com" score="60"/>
+    <review publication="The Onion (A.V. Club)" score=""/>
+    <review publication="TV Guide" score="70"/>
+    <review publication="Slate" score="50"/></reviews>
+<metascore>64</metascore>
+<box_office>$968,657,891.00</box_office>
+</movie>
+</movies>
